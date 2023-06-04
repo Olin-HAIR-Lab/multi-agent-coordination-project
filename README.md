@@ -16,9 +16,9 @@ The learning goal for this project is to get you to achieve the following:
 - To make the project more tractable in the available time:
     - We will complete the task list in the flight area WITHOUT physical obstacles (i.e., bin racks)! However, you should plan your solution as if they were present.
 
-![media/world-file.PNG](Module%203%20Project%20002933c232694396a65276ae183e381d/world-file.png)
+![world-file.PNG](media/world-file.png)
 
-![media/robosys-module-3-project.PNG](Module%203%20Project%20002933c232694396a65276ae183e381d/robosys-module-3-project.png)
+![robosys-module-3-project.PNG](media/robosys-module-3-project.png)
 
 ---
 
@@ -119,9 +119,9 @@ python main.py
     - **Task 3.1**: Run it in simulation and obtain plots such as below:
         - Solution Plots:
             
-            ![media/2Dplot.png](Module%203%20Project%20002933c232694396a65276ae183e381d/2Dplot.png)
+            ![2Dplot.png](media/2Dplot.png)
             
-            ![media/3Dplot.png](Module%203%20Project%20002933c232694396a65276ae183e381d/3Dplot.png)
+            ![3Dplot.png](media/3Dplot.png)
             
     - **Task 3.2**: Run it on the Crazyflies (make sure to set the right parameters in the `config.yaml` file.
         - Obtain plots as shown above and also record a video
