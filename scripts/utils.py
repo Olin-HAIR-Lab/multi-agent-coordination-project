@@ -3,6 +3,7 @@
 from typing import List
 from dataclasses import dataclass, field
 import math
+from itertools import product
 
 import numpy as np
 
@@ -217,3 +218,25 @@ def print_info(loop_time):
 
 def dist(a, b):
     return np.sqrt((a.x-b.x)**2 + (a.y-b.y)**2)
+
+
+def define_env(map):
+    """
+    Take in the two corners of rectangles from the yaml file
+    and define all the points as obstacles
+
+    Credit: jacks-team-in-a-line Team (RoboSys 2023)
+    """
+    env = map
+    corners = map["obstacles"]
+    obstacles = []
+
+    x_vals = []
+    y_vals = []
+    for pair in corners:
+        x_vals += [x for x in range(pair[0][0], pair[1][0] + 1)]
+        y_vals += [y for y in range(pair[0][1], pair[1][1] + 1)]
+        obstacles += product(x_vals, y_vals)
+
+    env['obstacles'] = list(set(obstacles))
+    return env
