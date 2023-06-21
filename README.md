@@ -55,7 +55,9 @@ Get Python 3 installed on your computer (if you do not already have it)
 ### Step 2
 Create a virtual environment for this assignment [*This is technically optional, but I strongly recommend it*]
 
-- Follow this tutorial: [Python Virtual Environments: A Primer - Real Python](https://realpython.com/python-virtual-environments-a-primer/)
+- Follow this tutorial (Windows): [Python Virtual Environments: A Primer - Real Python](https://realpython.com/python-virtual-environments-a-primer/)
+- Follow this tutorial (Linux): [Create a Python virtual environment in the Linux terminal](https://www.pragmaticlinux.com/2021/12/create-a-python-virtual-environment-in-the-linux-terminal/)
+    
     
     
 
