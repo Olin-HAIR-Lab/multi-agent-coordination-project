@@ -1,0 +1,54 @@
+# settings
+use_hardware:   False
+time_delta:     0.25
+
+#                 Agent ID, Init position, Take-off height
+agent_init:     [['CF7', [-0.6, 0.9, 0.0], 0.4],
+                 ['CF8', [-0.6, 0.3, 0.0], 0.4],
+                 ['CF9', [-0.6, -0.3, 0.0], 0.4]]
+
+
+agent_colors:   ['#1f77b4',  # muted blue
+                '#ff7f0e',  # safety orange
+                '#2ca02c',  # cooked asparagus green
+                '#d62728',  # brick red
+                '#9467bd',  # muted purple
+                '#8c564b',  # chestnut brown
+                '#e377c2',  # raspberry yogurt pink
+                '#7f7f7f',  # middle gray
+                '#bcbd22',  # curry yellow-green
+                '#17becf'   # blue-teal
+                ]
+
+
+pick_loc:       [['P1', [0.4, 0.7, 0.4]],
+                 ['P2', [0.3, -0.2, 0.4]], 
+                 ['P3', [1.0, 0.2, 0.6]], 
+                 ['P4', [0.2, -0.7, 0.4]]]
+
+drop_loc:       [['D1', [1.8, 0.6]], 
+                 ['D2', [1.8, -0.3]], 
+                 ['D2', [1.8, -0.3]], 
+                 ['D1', [1.8, 0.6]]]
+
+map:
+  dimensions:
+    x_max: 21
+    x_min: -9
+    y_max: 11
+    y_min: -9
+  obstacles:
+  - !!python/list
+    - !!python/tuple
+      - 0
+      - -10
+    - !!python/tuple
+      - 12
+      - -6
+  - !!python/list
+    - !!python/tuple
+      - 0
+      - 10
+    - !!python/tuple
+      - 12
+      - 6
