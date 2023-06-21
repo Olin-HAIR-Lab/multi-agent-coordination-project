@@ -131,27 +131,3 @@ python main.py
     
 - **Task 5**: Integrate your (existing) **trajectory-following algorithm** from the Module 2 project (STEP 4 in the `main.ipynb` file)
 
-> **Submit:** A brief write-up of what you did in Tasks 3-5. Please show plots and submit a link to the video as well.
-> 
-
-- **Reflection**:
-    - Write a reflection at the end of the assignment. Follow the prompts:
-        - What did you learn from this? What did you not know before this assignment?
-        - What was the most difficult aspect of the assignment?
-        - What was the easiest or most straightforward aspect of the assignment?
-        - How long did this assignment take? What took the most time (Setup? Figuring out the codebase? Coding in Python? Task 4? Getting Crazyflie to fly?)?
-        
-        > **Submit:** A write-up! 🙂
-        > 
-        
-
-### Suggested Project Pacing
-
-- **By Class time next Tuesday, March 7th**
-    - Complete Tasks 1-3
-    - Start ideating on Task 4 implementation
-- **During class next Tuesday, March 7th**
-    - Complete Task 4 implementation
-- **By Class time next Friday, March 10th**
-    - Complete the project with plots and demo video to share
-    - Turn into canvas [here](https://olin.instructure.com/courses/524/assignments/9044)
