@@ -1,6 +1,6 @@
 # Multi-Agent Coordination Project
 
-### Project Goals
+## Project Goals
 
 The learning goal for this project is to get you to achieve the following:
 
@@ -9,7 +9,7 @@ The learning goal for this project is to get you to achieve the following:
 - Improve coding skills in Python
 - Explore the multi-agent path finding (MAPF) problem in the context of the Hummingbird project
 
-### Project Description
+## Project Description
 
 - Given a defined task list (including pick and drop locations for **N** deliveries), operate **M** Crazyflie agents to complete the defined task list as quickly as possible.
 - Here, number of tasks (N) is 4, and number of Crazyflie agents (M) is 3. See images below for a graphical representation of the task list (specific information is provided in the `config.yaml` file)
@@ -22,7 +22,7 @@ The learning goal for this project is to get you to achieve the following:
 
 ---
 
-### Setting up your PC
+## Setting up your PC
 
 <aside>
 📌 Of course, you should have already set up your PC by now (if so, just skip to **Step 3**), but just in case you need a refresher 🙂
@@ -31,16 +31,15 @@ The learning goal for this project is to get you to achieve the following:
 
 You can complete this assignment on any computer OS: Mac, Windows, Linux, etc. All you need is **Python 3.6+**.
 
-**Step 0** **(Optional)**: Install Visual Studio Code (I strongly recommend using this, if you don’t already do. It’s the best IDE in my humble opinion)
+### Step 0 (Optional)
+Install Visual Studio Code (I strongly recommend using this, if you don’t already do. It’s the best IDE in my humble opinion)
 
-- Follow this to install it:
+- Follow this to install it: [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
     
-    [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
-    
-    ---
     
 
-**Step 1**: Get Python 3 installed on your computer (if you do not already have it)
+### Step 1
+Get Python 3 installed on your computer (if you do not already have it)
 
 - To check if you have it, open your terminal (or CMD, PowerShell, etc.) and type:
     
@@ -49,27 +48,21 @@ You can complete this assignment on any computer OS: Mac, Windows, Linux, etc. A
     Python 3.8.3                           # <--- you should see something like this
     ```
     
-- If you don’t have Python installed, follow this tutorial to install it:
+- If you don’t have Python installed, follow this tutorial to install it: [Python 3 Installation & Setup Guide - Real Python](https://realpython.com/installing-python/)
     
-    [Python 3 Installation & Setup Guide - Real Python](https://realpython.com/installing-python/)
-    
-    ---
     
 
-**Step 2**: Create a virtual environment for this assignment [*This is technically optional, but I strongly recommend it*]
+### Step 2
+Create a virtual environment for this assignment [*This is technically optional, but I strongly recommend it*]
 
-- Follow this tutorial:
+- Follow this tutorial: [Python Virtual Environments: A Primer - Real Python](https://realpython.com/python-virtual-environments-a-primer/)
     
-    [Python Virtual Environments: A Primer - Real Python](https://realpython.com/python-virtual-environments-a-primer/)
-    
-    ---
     
 
-**Step 3**: Get the assignment repository from Github
+### Step 3
+Get the assignment repository from Github
 
-- Clone this repository:
-    
-    [https://github.com/Olin-RoboSys/multi-agent-coordination-project.git](https://github.com/Olin-RoboSys/multi-agent-coordination-project.git)
+- Clone this repository: [https://github.com/Olin-HAIR-Lab/multi-agent-coordination-project.git](https://github.com/Olin-HAIR-Lab/multi-agent-coordination-project.git)
     
 - Follow this instruction to clone:
     
@@ -77,14 +70,14 @@ You can complete this assignment on any computer OS: Mac, Windows, Linux, etc. A
     # first: cd to your desired folder
     
     # then: git clone the project
-    git clone https://github.com/Olin-RoboSys/multi-agent-coordination-project.git
+    git clone https://github.com/Olin-HAIR-Lab/multi-agent-coordination-project.git
     cd multi-agent-coordination-project
     ```
     
-    ---
     
 
-**Step 4**: Install all required Python packages
+### Step 4
+Install all required Python packages
 
 ```bash
 # first: make sure you have activated the virtual environment (if you used one). See step 2 tutorial
@@ -96,9 +89,9 @@ cd multi-agent-coordination-project
 python -m pip install -r requirements.txt
 ```
 
----
 
-**Step 5**: There are TWO ways to interact with this project:
+### Step 5
+There are TWO ways to interact with this project:
 
 1. You can work out of the Jupyter Notebook directly from VSCode, in that case, you’ll use the `main.ipynb` file **[This is what I recommend]**
 2. You can work out of a normal python script. In this case, run the following:
@@ -107,7 +100,7 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-### What to do and what to submit
+## What to do and what to submit
 
 - **Task 1**: Review and understand Task and Agent definitions in STEP 1 in the `main.ipynb` file
     - **N.B.:** There’s nothing to implement here. Just understand what we’re doing.
